@@ -5,8 +5,8 @@
     list-style-type: none;
 }
 
-body {
-    background-image: url("../imgs/Marcapágina\ Separador\ de\ libros\ pattern\ líneas\ curvas\ lila\ y\ rosa.png");
+main {
+    background-image: url("../imgs/Q0vvx2Lk.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -74,7 +74,7 @@ header button {
     font-size: 28px;
   }
   
-  a {
+.contenedor_primera_img a {
     text-decoration: none;
     color: white;
     font-size: inherit;
@@ -86,16 +86,16 @@ header button {
   
   
   @media screen and (max-width:760px) {
-    .header {
+    .contenedor_primera_img .header {
       flex-flow: row wrap;
     }
   
-    .header .button {
+    .contenedor_primera_img .header .button {
       display: block;
       cursor: pointer;
     }
   
-    .header .nav {
+    .contenedor_primera_img .header .nav {
       width: 100%;
     display: none; 
       height: 0;
@@ -109,21 +109,33 @@ header button {
       align-items: center;
     }
   
-    .header .nav.activo {
+    .contenedor_primera_img .header .nav.activo {
       display: block;
-      height: 38vh;
+      height: 35vh;
       pointer-events: auto;
     }
   
-    .header .ul {
+    .contenedor_primera_img .header .ul {
       flex-direction: column;
     }
   
-    .header .li {
-      margin: 1rem 0;
+    .contenedor_primera_img .header .li {
+      margin: 10px 0;
     }
-  
+    
+    .contenedor_primera_img .primera_img_fondo h1 {
+        font-size: 27px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .contenedor_primera_img .primera_img_fondo p {
+        font-size: 20px;
+        font-family: 'Pinyon Script', cursive;
+        padding-top: 1%;
   }
+
+
+}
 
 .a img {
     width: 100px;
@@ -135,6 +147,7 @@ header button {
     background-image: url(../imgs/c2bd6746c5ab4741bd83f5a82715f4d1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -156,7 +169,8 @@ header button {
 .primera_img_fondo {
     width: 90%;
     padding-left: 3%;
-    padding-top: 15%;
+    padding-top: 12%;
+    padding-bottom: 10%;
 }
 
 /**Termina Part1**/
@@ -165,5 +179,8 @@ header button {
     padding: 5%;
 }
 
-
+.img_car {
+    height: 600px;
+}
+/
 
