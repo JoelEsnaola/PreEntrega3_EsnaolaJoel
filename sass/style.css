@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-image: url("../imgs/Marcapágina Separador de libros pattern líneas curvas lila y rosa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header button {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  background-color: transparent;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.button {
+  border: 0;
+}
+
+.header {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header img {
+  width: 70px;
+  height: 70px;
+}
+
+.header .button {
+  display: none;
+}
+
+.header .svg {
+  width: 2em;
+  height: 2em;
+  fill: white;
+}
+
+.header .ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .li {
+  margin: 0 0.5em;
+  font-weight: 900;
+  transition: 550ms;
+  font-size: 20px;
+  font-family: "Playball", cursive;
+}
+
+.header .li:hover {
+  transition: 550ms;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    flex-flow: row wrap;
+  }
+  .header .button {
+    display: block;
+    cursor: pointer;
+  }
+  .header .nav {
+    width: 100%;
+    display: none;
+    height: 0;
+    pointer-events: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .nav.activo {
+    display: block;
+    height: 38vh;
+    pointer-events: auto;
+  }
+  .header .ul {
+    flex-direction: column;
+  }
+  .header .li {
+    margin: 1rem 0;
+  }
+}
+.a img {
+  width: 100px;
+  height: 100px;
+}
+
+/**Termina menu navegacion**/
+.contenedor_primera_img {
+  height: 730px;
+  background-image: url(../imgs/c2bd6746c5ab4741bd83f5a82715f4d1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.primera_img_fondo h1, .primera_img_fondo p {
+  color: white;
+}
+
+.primera_img_fondo h1 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.primera_img_fondo p {
+  font-size: 28px;
+  font-family: "Pinyon Script", cursive;
+  padding-top: 1%;
+}
+
+.primera_img_fondo {
+  width: 90%;
+  padding-left: 3%;
+  padding-top: 15%;
+}
+
+/**Termina Part1**/
+.part1 {
+  padding: 5%;
+}/*# sourceMappingURL=style.css.map */
