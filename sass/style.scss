@@ -6,7 +6,7 @@
 }
 
 main {
-    background-image: url("../imgs/Q0vvx2Lk.jpg");
+    background-image: url("../imgs/6179262.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -34,7 +34,7 @@ header button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: blueviolet;
   }
   
   .header img {
@@ -173,8 +173,6 @@ header button {
     padding-bottom: 10%;
 }
 
-/**Termina Part1**/
-
 .part1 {
     padding: 5%;
 }
@@ -182,5 +180,186 @@ header button {
 .img_car {
     height: 600px;
 }
-/
 
+.part1 h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 3%;
+}
+
+.primera_img_fondo svg {
+    transition: 800ms;
+}
+
+.primera_img_fondo svg:hover {
+    transition: 800ms;
+    height: 55px;
+    width: 55px;
+}
+
+.primera_img_fondo div {
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**Termina Part1**/
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.comunidad {
+    height: 100px;
+    width: 100px;
+}
+
+.part2 {
+    margin-top: 20%;
+}
+
+.part2 div ol li {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    text-align: center; 
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/**Termina part2**/
+.part3 ol li img{
+    width: 90%;
+    height: 100%;
+}
+
+.part3 {
+    height: 550px;
+}
+
+.part3 ol {
+padding-top: 6%;
+}
+
+.part3 h2 {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.part3 ol li {
+    transition: 550ms;
+}
+
+.part3 ol li:hover {
+    opacity: 30%;
+    transition: 550ms;
+}
+
+/**Termina part3**/
+
+.newsletter_container {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter_container h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.newsletter_container .email1 {
+    color: black;
+    padding: 6px;
+}
+
+.enviar {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border-radius: 2px solid black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif
+}
+/**Termina Newsletter**/
+
+footer {
+    height: 350px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+.whatsapp-icon svg {
+    transition: 550ms;
+}
+
+.whatsapp-icon svg:hover {
+    transition: 550ms;
+    height: 60px;
+    width: 60px;
+}
+
+.maps {
+    padding: 3%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer div img {
+    width: 200px;
+    height: 200px;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    flex-direction: column;
+    color: wheat;
+}
+  
+.logofooter p {
+    padding-top: 20%;
+}
+.redes img {
+    height: 60px;
+    width: 60px;
+}
+
+.redes {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
