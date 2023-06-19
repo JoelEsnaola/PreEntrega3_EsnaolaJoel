@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +34,7 @@ header button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: blueviolet;
+  color: white;
 }
 
 .header img {
@@ -58,12 +59,18 @@ header button {
   align-items: center;
 }
 
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
 .header .li {
   margin: 0 0.5em;
   font-weight: 900;
   transition: 550ms;
   font-size: 20px;
   font-family: "Playball", cursive;
+  color: white;
 }
 
 .header .li:hover {
@@ -82,14 +89,14 @@ li {
 }
 
 @media screen and (max-width: 760px) {
-  .contenedor_primera_img .header {
+  .contenedor_primera_img .header, .main_cursos .header {
     flex-flow: row wrap;
   }
-  .contenedor_primera_img .header .button {
+  .contenedor_primera_img .header .button, .main_cursos .header .button {
     display: block;
     cursor: pointer;
   }
-  .contenedor_primera_img .header .nav {
+  .contenedor_primera_img .header .nav, .main_cursos .header .nav {
     width: 100%;
     display: none;
     height: 0;
@@ -101,22 +108,22 @@ li {
     justify-content: center;
     align-items: center;
   }
-  .contenedor_primera_img .header .nav.activo {
+  .contenedor_primera_img .header .nav.activo, .main_cursos .header .nav.activo {
     display: block;
     height: 35vh;
     pointer-events: auto;
   }
-  .contenedor_primera_img .header .ul {
+  .contenedor_primera_img .header .ul, .main_cursos .header .ul {
     flex-direction: column;
   }
-  .contenedor_primera_img .header .li {
+  .contenedor_primera_img .header .li, .main_cursos .header .li {
     margin: 10px 0;
   }
-  .contenedor_primera_img .primera_img_fondo h1 {
+  .contenedor_primera_img .primera_img_fondo h1, .main_cursos .primera_img_fondo h1 {
     font-size: 27px;
     font-family: "Roboto", sans-serif;
   }
-  .contenedor_primera_img .primera_img_fondo p {
+  .contenedor_primera_img .primera_img_fondo p, .main_cursos .primera_img_fondo p {
     font-size: 20px;
     font-family: "Pinyon Script", cursive;
     padding-top: 1%;
@@ -312,6 +319,12 @@ footer {
 footer div img {
   width: 200px;
   height: 200px;
+  margin-top: 8%;
+}
+
+.logofooter p {
+  padding-top: 10%;
+  text-align: center;
 }
 
 .logofooter {
@@ -321,10 +334,7 @@ footer div img {
   width: 350px;
   flex-direction: column;
   color: wheat;
-}
-
-.logofooter p {
-  padding-top: 20%;
+  margin-left: 2%;
 }
 
 .redes img {
@@ -337,6 +347,7 @@ footer div img {
   gap: 80px;
   flex-direction: column;
   justify-content: center;
+  margin-left: 8%;
 }
 
 .redes span {
@@ -345,4 +356,59 @@ footer div img {
   gap: 10px;
   align-items: center;
   color: white;
+}
+
+/**Termina Footer**/
+/**COMIENZA CURSOS**/
+.main_cursos {
+  background-image: url("../imgs/6179262.jpg");
+}
+
+.main_cursos .nav .li {
+  color: white;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.whatsapp-icon {
+  color: white;
+}
+
+.container-fluid a {
+  font-family: "Roboto", sans-serif;
+}
+
+.uñas, .pestañas, .cejas, .intensivos {
+  text-align: center;
+}
+.uñas h2, .pestañas h2, .cejas h2, .intensivos h2 {
+  color: #C49A00;
+  font-family: "Playball", cursive;
+}
+.uñas div .col, .pestañas div .col, .cejas div .col, .intensivos div .col {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 0 10px #000;
+}
+.card h5 {
+  color: white;
+  font-weight: 500;
+  font-family: "Playball", cursive;
+}
+.card p, .card a {
+  font-family: "Roboto", sans-serif;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-rows: repeat(3, 20% 40% 40%);
+}
+
+.grid-card a {
+  margin-top: 5%;
 }/*# sourceMappingURL=style.css.map */
