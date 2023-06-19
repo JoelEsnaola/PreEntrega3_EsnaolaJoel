@@ -360,7 +360,7 @@ footer div img {
 
 /**Termina Footer**/
 /**COMIENZA CURSOS**/
-.main_cursos {
+.main_cursos, .main_lash {
   background-image: url("../imgs/6179262.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -413,4 +413,108 @@ footer div img {
 
 .grid-card a {
   margin-top: 5%;
+}
+
+/**Termina Cursos**/
+/**Comienza Lash Lifting**/
+.grid_container_info, .part_buy {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.img_cursos {
+  height: 300px;
+  width: auto;
+}
+
+.carrousel {
+  padding: 10%;
+}
+
+#carouselExample {
+  box-shadow: 0 0 20px #000;
+}
+
+.text_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.text_info h2 {
+  text-align: center;
+  font-family: "Playball", cursive;
+  font-size: 55px;
+}
+
+.text_info ul li {
+  font-size: 20px;
+  padding: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.lash {
+  display: flex;
+  flex-direction: column;
+}
+
+.temario h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.temario ul {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.temario h4 {
+  padding-left: 5%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.buy {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8) inset, 0px -8px 16px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30%;
+}
+
+.buy div h6 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.buy .metodos_pagos li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  padding: 3%;
+}
+
+.bloque_pagos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+  padding-bottom: 15%;
+}
+
+.buy button {
+  background-color: #000;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
