@@ -590,10 +590,6 @@ footer div img {
 }
 
 @media (max-width: 1060px) {
-  #footer {
-    display: grid;
-    grid-template-rows: auto auto;
-  }
   .redes {
     background-color: #000;
   }
@@ -610,9 +606,7 @@ footer div img {
     display: none;
   }
   #footer {
-    margin-top: 40%;
-    width: 100vw;
-    margin-left: -6%;
+    display: flex;
   }
   ol a {
     display: flex;
@@ -622,6 +616,12 @@ footer div img {
     justify-items: center;
     text-align: center;
   }
+  .contenedor_map, .redes, .logofooter {
+    background-color: #000;
+  }
+  .maps {
+    display: none;
+  }
 }
 @media (max-width: 1010px) {
   .part3 .imgs_cursos01 {
@@ -629,5 +629,25 @@ footer div img {
   }
   #footer {
     margin-top: 50%;
+  }
+}
+@media (max-width: 1150px) {
+  .part1_about div:nth-child(1) {
+    width: 70%;
+  }
+}
+@media (max-width: 1040px) {
+  .part1_about {
+    display: flex;
+    flex-direction: column;
+  }
+  .part1_about div:nth-child(1) {
+    width: 100%;
+  }
+  .part1_about img {
+    width: 100%;
+  }
+  .logros {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
