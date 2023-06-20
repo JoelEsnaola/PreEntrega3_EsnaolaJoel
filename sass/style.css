@@ -54,9 +54,9 @@ header button {
 
 .header .ul {
   display: flex;
+  align-items: center;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .header a {
@@ -162,7 +162,6 @@ li {
   width: 90%;
   padding-left: 3%;
   padding-top: 12%;
-  padding-bottom: 10%;
 }
 
 .part1 {
@@ -329,8 +328,8 @@ footer div img {
 
 .logofooter {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 350px;
   flex-direction: column;
   color: wheat;
@@ -344,8 +343,8 @@ footer div img {
 
 .redes {
   display: flex;
-  gap: 80px;
   flex-direction: column;
+  gap: 80px;
   justify-content: center;
   margin-left: 8%;
 }
@@ -360,7 +359,7 @@ footer div img {
 
 /**Termina Footer**/
 /**COMIENZA CURSOS**/
-.main_cursos, .main_lash {
+.main_cursos, .main_lash, .main_about {
   background-image: url("../imgs/6179262.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -416,7 +415,7 @@ footer div img {
 }
 
 /**Termina Cursos**/
-/**Comienza Lash Lifting**/
+/**Comienza la edicion de pag. curso en gral**/
 .grid_container_info, .part_buy {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -483,9 +482,9 @@ footer div img {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8) inset, 0px -8px 16px;
   border-radius: 100px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
   gap: 30%;
 }
 
@@ -517,4 +516,71 @@ footer div img {
   color: white;
   font-weight: 700;
   padding: 5px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/**Termina la edicion de cursos**/
+/**Comienza About**/
+.part1_about, .part3_about {
+  display: flex;
+  flex-direction: row;
+}
+
+.part1_about img, .part3_about img {
+  height: 600px;
+  width: 600px;
+  box-shadow: 0 0 10px #000;
+}
+
+.part1_about div, .part3_about div {
+  padding: 3%;
+}
+
+.text_about, .part3_about div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+/**Termina part1about**/
+/**Comienza part2about**/
+.part2_about h3 {
+  text-align: center;
+  color: white;
+  font-family: "Playball", cursive;
+  font-size: 45px;
+}
+
+.part2_about div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.part2_about img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px #000;
+}
+.part2_about span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  padding-left: 2%;
+}
+.part2_about span p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 1%;
+}
+
+.img_mala {
+  height: 360px;
+}
+
+/**Termina LA PAG**/
+/**Comienza Responsive**//*# sourceMappingURL=style.css.map */
