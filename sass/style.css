@@ -583,4 +583,51 @@ footer div img {
 }
 
 /**Termina LA PAG**/
-/**Comienza Responsive**//*# sourceMappingURL=style.css.map */
+/**Comienza Responsive**/
+#footer .contenedor_map {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1060px) {
+  #footer {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .redes {
+    background-color: #000;
+  }
+}
+@media (max-width: 1140px) {
+  ol {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .part3 .imgs_cursos01 {
+    width: 40%;
+  }
+  .newsletter_container {
+    display: none;
+  }
+  #footer {
+    margin-top: 40%;
+    width: 100vw;
+    margin-left: -6%;
+  }
+  ol a {
+    display: flex;
+    justify-content: center;
+  }
+  .beneficios {
+    justify-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 1010px) {
+  .part3 .imgs_cursos01 {
+    width: 50%;
+  }
+  #footer {
+    margin-top: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
